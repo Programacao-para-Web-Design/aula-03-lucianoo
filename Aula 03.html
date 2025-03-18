@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<title> </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        #horizontal img {
+            width: 500px; /* Ajuste para uma largura adequada */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        #Centro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<style>
-	#horizontal .imagem{
-		width: 1000px;
-		height: 2000px;
-	 }
-	 #div .Centro{
-		align-items: center;
-	 }
-
-</style>
 <body>
 <div id="Centro">
-	<h1>Lista ordenada</h1>
-	<id= Lista ordenada>
-	<ul>
-		<li>Paisagem</li>
-		<li>Grama</li>
-		<li>Jardinagem</li>
-	</ul>
+    <h1>Lista Ordenada</h1>
+    <!-- Corrigido o atributo inválido -->
+    <ul>
+        <li>Paisagem</li>
+        <li>Grama</li>
+        <li>Jardinagem</li>
+    </ul>
 
-	<h3>Lista</h3>
-	<id= Lista desordenada>
+    <h3>Lista Desordenada</h3>
+    <!-- Corrigido o atributo inválido -->
+    <ol>
+        <li>Futebol</li>
+        <li>Bola</li>
+        <li>Trave</li>
+    </ol>
 
-	<ol>
-		<li>Futebol</li>
-		<li>Bola</li>
-		<li>Trave</li>
-	</ol>
-	<div id="horizontal">
-		<h4>Imagem</h4>
-	<img src="imagens/imagem.jpg.png">
-	</div>
+    <div id="horizontal">
+        <h4>Imagem</h4>
+        <!-- Corrigido o caminho da imagem -->
+        <img src="imagens/carro.png" alt="Imagem de exemplo">
+    </div>
+</div>
 </body>
 </html>
